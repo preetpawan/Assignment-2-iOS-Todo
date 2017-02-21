@@ -2,9 +2,11 @@
 //  AppDelegate.swift
 //  ToDo_pawanpreet300916703
 //
-//  Created by pawanpreet kaur on 2017-02-20.
+//  Created by pawanpreet kaur on 2017-02-15.
 //  Copyright © 2017 Pawanpreet kaur. All rights reserved.
-//
+// Student Name: Pawanpreet Kaur
+// Student Id: 300916703
+
 
 import UIKit
 import CoreData

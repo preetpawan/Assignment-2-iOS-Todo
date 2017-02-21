@@ -2,9 +2,10 @@
 //  TableViewController.swift
 //  ToDo_pawanpreet300916703
 //
-//  Created by pawanpreet kaur on 2017-02-20.
+//  Created by pawanpreet kaur on 2017-02-15.
 //  Copyright © 2017 Pawanpreet kaur. All rights reserved.
-//
+// Student Name: Pawanpreet Kaur
+// Student Id: 300916703
 
 import UIKit
 import Firebase
@@ -103,9 +104,9 @@ class TableViewController: UITableViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "update", sender: self)
-    }
+    //override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+      //  performSegue(withIdentifier: "update", sender: self)
+   // }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "update" {
